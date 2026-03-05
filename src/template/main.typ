@@ -1,4 +1,4 @@
-#import "@preview/malos-presets:1.0.0": presets
+#import "@preview/malos-presets:1.1.0": presets
 
 #show: presets
 
