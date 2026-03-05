@@ -14,7 +14,10 @@
   set text(font: "Libertinus Serif")
   show selector.or(title, heading): set text(font: "Libertinus Sans")
   show raw: set text(font: "Fira Mono")
-  show math.equation: set text(font: "New Computer Modern Math")
+  show math.equation: set text(
+    font: "New Computer Modern Math",
+    features: ("ss03": 1),
+  )
 
   // Headings.
   show title: set align(center)

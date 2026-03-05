@@ -19,7 +19,7 @@
 
 = Fonts
 
-Titles and headings use Libertinus Sans to contrast with the main text, which is typeset in Libertinus Serif. Mathematics are laid out in New Computer Modern Math, and raw text in Fira Mono.
+Titles and headings use Libertinus Sans to contrast with the main text, which is typeset in Libertinus Serif. Mathematics are laid out in New Computer Modern Math with Computer Modern-style blackboard bold. Raw text uses Fira Mono.
 
 
 = Paragraphs
