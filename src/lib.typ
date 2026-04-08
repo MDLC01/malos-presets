@@ -31,16 +31,13 @@
     justify: true,
     justification-limits: (
       tracking: (min: -0.01em, max: 0.02em),
-    )
+    ),
   )
   show selector.or(
     heading,
     figure.caption,
     table,
   ): set par(justify: false)
-
-  // First line indent.
-  set par(first-line-indent: 1.5em)
 
   // List markers.
   set list(marker: [--])
