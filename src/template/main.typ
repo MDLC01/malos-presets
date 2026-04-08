@@ -1,4 +1,4 @@
-#import "@preview/malos-presets:1.1.0": presets
+#import "@preview/malos-presets:1.2.0": presets
 
 #show: presets
 
@@ -24,7 +24,7 @@ Titles and headings use Libertinus Sans to contrast with the main text, which is
 
 = Paragraphs
 
-Paragraphs are justified, with character-level justification enabled. They are also first-line-indented.
+Paragraphs are justified, with character-level justification enabled.
 
 #lorem(80)
 
