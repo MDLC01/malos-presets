@@ -19,7 +19,7 @@
 
 = Fonts
 
-Titles and headings use Libertinus Sans to contrast with the main text, which is typeset in Libertinus Serif with raw text in Fira Mono. Mathematics are laid out in New Computer Modern Math with Computer Modern-style blackboard bold: $QQ$, $RR$. This can be disabled to use AMS blackboard bold instead with the show-set rule ```typc show math.equation: set text(features: (ss03: 0))```: #[
+Titles and headings use Libertinus Sans to contrast with the main text, which is typeset in Libertinus Serif with raw text in Inconsolata. Mathematics are laid out in New Computer Modern Math with Computer Modern-style blackboard bold: $QQ$, $RR$. This can be disabled to use AMS blackboard bold instead with the show-set rule ```typc show math.equation: set text(features: (ss03: 0))```: #[
   #show math.equation: set text(features: (ss03: 0))
   $QQ$, $RR$.
 ]

@@ -13,11 +13,16 @@
   // Fonts.
   set text(font: "Libertinus Serif")
   show selector.or(title, heading): set text(font: "Libertinus Sans")
-  show raw: set text(font: "Fira Mono")
+  show raw: set text(font: "Inconsolata", size: 1em / 0.8)
   show math.equation: set text(
     font: "New Computer Modern Math",
-    features: ("ss03": 1),
+    features: (ss03: 1),
   )
+
+  // Hardcode underline metrics from Libertinus fonts. This prevents
+  // discontinuous lines when the underlined content contains style changes.
+  // See: https://github.com/typst/typst/issues/8145.
+  set underline(offset: 0.078em, stroke: 0.04em)
 
   // Headings.
   show title: set align(center)
